@@ -18,6 +18,14 @@ body {
   margin: 0;
 }
 
+form .field{
+  position: relative;
+  height: 30px;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
 .login {
   background-color: #6bb398;
   padding: 20px 40px;
@@ -31,11 +39,11 @@ body {
 
 .login a {
   text-decoration: none;
-  color: rgb(2, 66, 87);
+  color: #009961;
 }
 
 .login a:hover {
-  color: blue;
+  color: black;
   text-decoration: none;
 }
 .btn {
@@ -43,7 +51,7 @@ body {
   display: inline-block;
   width: 100%;
   background: #009961;
-  padding: 15px;
+  padding: 8px;
   font-family: inherit;
   font-size: 16px;
   border: 0;
@@ -83,7 +91,7 @@ body {
   padding:0 35px 0 5px;
   font-size: 18px;
   color: #fff;
-  height: 35px;
+  height: 25px;
   outline: none;
   font-size: 18px;
   font-family: courier, monaco, monospace;
@@ -107,3 +115,68 @@ input:focus ~ :valid{
   font-size: 1.2em;
   top: 20px;
 }
+
+.line {
+  position: relative;
+  height: 2px;
+  width: 100;
+  margin: 36px 0;
+  background-color: #d4d4d4;
+}
+
+.line::before {
+  content: 'Or';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #6bb398;
+  color: #fff;
+  padding: 0 15px;
+}
+
+.media-options a {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+a.facebook {
+  color: #fff;
+  background-color: #4267b2;
+}
+ a.facebook .facebook-icon {
+  height: 28px;
+  width: 28px;
+  color: #0171d3;
+  font-size: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+ }
+
+ .facebook-icon, 
+ .google-icon {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+ }
+ 
+ a.google {
+  border: 1px solid #fff;
+  color: #fff;
+ }
+
+ a.google .google-icon {
+  height: 28px;
+  width: 28px;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
