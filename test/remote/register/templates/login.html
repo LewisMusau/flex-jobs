@@ -16,9 +16,29 @@
       <label for="password">Password</label>
       <input type="password" id="password" name="password" required>
     </div>
+    <p class="text">
+      <a href="#" class="forgot">Forgot Password?</a>
+    </p>
     <button type="submit" class="btn">Login</button>
     <p class="text">Don't have an account? 
-      <a href="{% url 'register' %}">Create Account</a></p>
+      <a href="{% url 'register' %}">Create Account</a>
+    </p>
+    <div class="line"></div>
+
+    <div class="media-options">
+      <a href="#" class="field facebook">
+        <i class='bx bxl-facebook facebook-icon'></i>
+        <span>Login with Facebook</span>
+      </a>
+    </div>
+
+    <div class="media-options">
+      <a href="#" class="field google">
+        <ion-icon name="logo-google" class="google-icon"></ion-icon>
+        <span>Login with Google</span>
+      </a>
+    </div>
+
   </form> 
 </div>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
