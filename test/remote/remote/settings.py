@@ -123,10 +123,10 @@ AUTH_USER_MODEL = 'register.User'
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    'C:/Users/FELIX KIMEU/Downloads/test/remote/register/static/register',
-    'C:/Users/FELIX KIMEU/Downloads/test/remote/home/static/home',
+    'C:/Users/Newton/Desktop/flex-jobs/test/remote/register/static/register',
+    'C:/Users/Newton/Desktop/flex-jobs/test/remote/home/static/home',
 ]
-STATIC_ROOT = 'C:/Users/FELIX KIMEU/Downloads/test/remote/static'
+STATIC_ROOT = 'C:/Users/Newton/Desktop/flex-jobs/test/remote/static'
 
 
 
