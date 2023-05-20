@@ -6,7 +6,7 @@
     border-radius: 5px;
   }
   body {
-    background-color: #83dc8e; 
+    background-color: #4ca256; 
   }
   
   
@@ -36,7 +36,7 @@
   }
   
   .register button[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #e3ebe3;
   }
   
 
@@ -47,7 +47,7 @@
   margin: 20px auto;
   max-width: 400px;
   padding: 20px;
-  background-color: #52a452;
+  background-color: #7dbe7d;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -66,7 +66,7 @@
   width: 100%;
   padding: 10px;
   background-color: #2ecc71;
-  color: #ffffff;
+  color: #2e2b2b;
   border: none;
   border-radius: 5px;
   font-size: 16px;
@@ -86,7 +86,7 @@
 .register form input[type="password"] {
   width: 100%;
   padding: 10px;
-  border: 1px solid #cccccc;
+  border: 1px solid #c3b7b7;
   border-radius: 5px;
   font-size: 16px;
 }

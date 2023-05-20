@@ -19,7 +19,9 @@
     <p class="text">
       <a href="#" class="forgot">Forgot Password?</a>
     </p>
-    <button type="submit" class="btn">Login</button>
+    <a href="{% url 'dashboard' %}"
+      <button type="submit" class="btn">Login</button>
+    </a>
     <p class="text">Don't have an account? 
       <a href="{% url 'register' %}">Create Account</a>
     </p>

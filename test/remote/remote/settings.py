@@ -40,6 +40,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'home',
     'register',
+    'writers',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.google',
 ]
 
 MIDDLEWARE = [
@@ -117,16 +122,17 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
-AUTH_USER_MODEL = 'register.User'
 
 
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    'C:/Users/Newton/Desktop/flex-jobs/test/remote/register/static/register',
-    'C:/Users/Newton/Desktop/flex-jobs/test/remote/home/static/home',
+    'C:/Users/FELIX KIMEU/Desktop/flex-jobs/test/remote/register/static/register',
+    'C:/Users/FELIX KIMEU/Desktop/flex-jobs/test/remote/home/static/home',
+    'C:/Users/FELIX KIMEU/Desktop/flex-jobs/test/remote/writers/static/writers',
+
 ]
-STATIC_ROOT = 'C:/Users/Newton/Desktop/flex-jobs/test/remote/static'
+STATIC_ROOT = 'C:/Users/FELIX KIMEU/Desktop/flex-jobs/test/remote/static'
 
 
 
@@ -134,3 +140,8 @@ STATIC_ROOT = 'C:/Users/Newton/Desktop/flex-jobs/test/remote/static'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',
+    'allauth.account.auth_backends.AuthenticationBackend',
+]
