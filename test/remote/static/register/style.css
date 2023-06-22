@@ -2,7 +2,7 @@
     max-width: 500px;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #121111;
     border-radius: 5px;
   }
   body {
@@ -86,7 +86,7 @@
 .register form input[type="password"] {
   width: 100%;
   padding: 10px;
-  border: 1px solid #c3b7b7;
+  border: 1px solid #555050;
   border-radius: 5px;
   font-size: 16px;
 }

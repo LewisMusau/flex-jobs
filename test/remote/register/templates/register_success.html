@@ -4,5 +4,26 @@
 
 {% block content %}
   <h1>Registration Successful</h1>
-  <p>Thank you for registering!</p>
+  <p>Thank you for registering, {{ username }} !</p>
+  
+  <p>Click <a href="{% url 'register:login' %}">here</a> to login.</p>
+
+  <style>
+    /* Add hover effect to the login button */
+    .login-button {
+      padding: 10px 20px;
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .login-button:hover {
+      background-color: #45a049;
+    }
+  </style>
+  
+  <button class="login-button"><a href="{% url 'register:login' %}" style="text-decoration: none; color: inherit;">Login</a></button>
 {% endblock %}

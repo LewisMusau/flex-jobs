@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% load static %}
+
 {% block content %}
 <div class="register">
   <h2>Register</h2>
@@ -8,11 +9,16 @@
     {{ form.as_p }}
     <button type="submit">Register</button>
   </form>
-   <p>Already have an account? <a href="{% url 'login' %}">Login</a></p>
+  <p>Already have an account? <a href="{% url 'register:login' %}">Login</a></p>
 </div>
 {% endblock %}
 
 {% block extra_css %}
 <link rel="stylesheet" type="text/css" href="{% static 'register/style.css' %}">
+<style>
+  .register {
+    max-height: 500px; /* Set a maximum height for the container */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds the container height */
+  }
+</style>
 {% endblock %}
-

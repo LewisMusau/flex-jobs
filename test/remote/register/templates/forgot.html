@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forgot Password</title>
+    <style>
+        body {
+            background-color: #1b561b;
+            text-align: center;
+        }
+        
+        h2 {
+            color: #333;
+        }
+        
+        form {
+            display: inline-block;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        
+        input[type="email"],
+        input[type="password"] {
+            width: 250px;
+            padding: 5px;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+        }
+        
+        button {
+            padding: 10px 20px;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        
+        #timer {
+            margin-top: 10px;
+            color: #333;
+        }
+        
+        .strength-bar {
+            height: 10px;
+            margin-top: 5px;
+            background-color: #ddd;
+        }
+        
+        .strength-bar-fill {
+            height: 100%;
+            transition: width 0.3s;
+        }
+        
+        .strength-weak {
+            background-color: #ff4d4d;
+        }
+        
+        .strength-medium {
+            background-color: #ffd633;
+        }
+        
+        .strength-strong {
+            background-color: #00cc66;
+        }
+    </style>
+    <script>
+        function startTimer(duration, display) {
+            var timer = duration, minutes, seconds;
+            setInterval(function () {
+                minutes = parseInt(timer / 60, 10);
+                seconds = parseInt(timer % 60, 10);
+
+                minutes = minutes < 10 ? "0" + minutes : minutes;
+                seconds = seconds < 10 ? "0" + seconds : seconds;
+
+                display.textContent = minutes + ":" + seconds;
+
+                if (--timer < 0) {
+                    timer = duration;
+                }
+            }, 1000);
+        }
+
+        window.onload = function () {
+            var fiveMinutes = 60 * 5,
+                display = document.querySelector('#timer');
+            startTimer(fiveMinutes, display);
+        };
+        
+        function checkPasswordStrength() {
+            var password = document.querySelector('#password').value;
+            var strengthBar = document.querySelector('.strength-bar-fill');
+            
+            var strength = 0;
+            
+            // Add conditions to calculate password strength
+            if (password.length >= 8) {
+                strength += 1;
+            }
+            
+            if (password.match(/[a-z]/)) {
+                strength += 1;
+            }
+            
+            if (password.match(/[A-Z]/)) {
+                strength += 1;
+            }
+            
+            if (password.match(/[0-9]/)) {
+                strength += 1;
+            }
+            
+            switch (strength) {
+                case 0:
+                case 1:
+                    strengthBar.style.width = '25%';
+                    strengthBar.classList.remove('strength-medium');
+                    strengthBar.classList.remove('strength-strong');
+                    strengthBar.classList.add('strength-weak');
+                    break;
+                case 2:
+                    strengthBar.style.width = '50%';
+                    strengthBar.classList.remove('strength-weak');
+                    strengthBar.classList.remove('strength-strong');
+                    strengthBar.classList.add('strength-medium');
+                    break;
+                case 3:
+                    strengthBar.style.width = '75%';
+                    strengthBar.classList.remove('strength-weak');
+                    strengthBar.classList.remove('strength-medium');
+                    strengthBar.classList.add('strength-strong');
+                    break;
+                case 4:
+                    strengthBar.style.width = '100%';
+                    strengthBar.classList.remove('strength-weak');
+                    strengthBar.classList.remove('strength-medium');
+                    strengthBar.classList.add('strength-strong');
+                    break;
+            }
+        }
+    </script>
+</head>
+<body>
+    <form action="{% url 'register:forgotpassword' %}" method="POST">
+        <h2>Forgot Password</h2>
+        {% if messages %}
+            <ul class="messages">
+                {% for message in messages %}
+                    {% if message.tags == 'error' %}
+                        <li class="error">{{ message }}</li>
+                    {% elif message.tags == 'success' %}
+                        <li class="success">{{ message }}</li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        {% endif %}
+        
+        {% csrf_token %}
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="password">New Password:</label>
+        <input type="password" id="password" name="new_password" oninput="checkPasswordStrength()" required><br><br>
+        
+        <div class="strength-bar">
+            <div class="strength-bar-fill"></div>
+        </div><br>
+        
+        <label for="repeat_password">Repeat Password:</label>
+        <input type="password" id="repeat_password" name="repeat_password" required><br><br>
+        
+        <button type="submit">Reset Password</button><br><br>
+        
+        <div id="timer"></div>
+    </form>
+</body>
+</html>

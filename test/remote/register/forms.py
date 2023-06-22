@@ -8,6 +8,7 @@ from django.contrib.auth.models import User
 
 
 class RegistrationForm(UserCreationForm):
+    
     email = forms.EmailField(label='Email', required=True)
     password1 = forms.CharField(
         label='Password',

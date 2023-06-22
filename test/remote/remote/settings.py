@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 import os
+import logging
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -144,4 +146,74 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
     'allauth.account.auth_backends.AuthenticationBackend',
+    'django.contrib.auth.backends.ModelBackend',
 ]
+SESSION_COOKIE_AGE = 3000000  #  minutes in seconds
+
+
+
+# Gmail API settings
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'employed.com@gmail.com'
+DEFAULT_FROM_EMAIL = 'employed.com@gmail.com'
+
+
+
+
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'file': {
+            'level': 'INFO',
+            'class': 'logging.FileHandler',
+            'filename': 'django.log',
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['file'],
+            'level': 'INFO',
+            'propagate': True,
+        },
+    },
+}
+
+
+import os
+import base64
+from google.oauth2.credentials import Credentials
+from google_auth_oauthlib.flow import InstalledAppFlow
+from googleapiclient.discovery import build
+
+from django.conf import settings
+
+# Define the scopes required for Gmail API access
+SCOPES = ['https://www.googleapis.com/auth/gmail.send']
+
+def get_gmail_service():
+    # Set the path to the client secret file
+    client_secret_path = os.path.join(settings.BASE_DIR,'token.json')
+
+    # Load the client secret file and get credentials
+    flow = InstalledAppFlow.from_client_secrets_file(
+        client_secret_path, SCOPES
+    )
+    creds = flow.run_local_server(port=0)
+
+    # Save the credentials (access token and refresh token) for later use
+    token_path = os.path.join(settings.BASE_DIR,'token.json')
+    with open(token_path, 'w') as token_file:
+        token_file.write(creds.to_json())
+
+
+    # Build and return the Gmail service object
+    service = build('gmail', 'v1', credentials=creds)
+    return service
+
+LOGIN_URL = '/accounts/login/'
+LOGIN_REDIRECT_URL = '/dashboard/'
