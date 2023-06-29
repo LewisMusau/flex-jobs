@@ -7394,3 +7394,776 @@ ValueError: Cannot query "jack": Must be "CustomUser" instance.
 C:\Users\FELIX KIMEU\Desktop\flex-jobs\test\remote\register\models.py changed, reloading.
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
+"GET /admin/login/?next=/admin/auth/user/ HTTP/1.1" 200 3843
+"POST /admin/login/?next=/admin/auth/user/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 22555
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /login/ HTTP/1.1" 200 2022
+"POST /login/ HTTP/1.1" 302 0
+"GET /dashboard/ HTTP/1.1" 200 46092
+Not Found: /dashboard/assets/img/logo.png
+"GET /dashboard/assets/img/logo.png HTTP/1.1" 404 4108
+Not Found: /dashboard/assets/css/style.css
+Not Found: /dashboard/assets/img/messages-3.jpg
+Not Found: /dashboard/assets/img/messages-1.jpg
+"GET /dashboard/assets/css/style.css HTTP/1.1" 404 4111
+"GET /dashboard/assets/img/messages-3.jpg HTTP/1.1" 404 4126
+"GET /dashboard/assets/img/messages-1.jpg HTTP/1.1" 404 4126
+Not Found: /dashboard/assets/img/profile-img.jpg
+Not Found: /dashboard/assets/img/messages-2.jpg
+"GET /dashboard/assets/img/profile-img.jpg HTTP/1.1" 404 4129
+"GET /dashboard/assets/img/messages-2.jpg HTTP/1.1" 404 4126
+Not Found: /dashboard/assets/img/product-1.jpg
+"GET /dashboard/assets/img/product-1.jpg HTTP/1.1" 404 4123
+Not Found: /dashboard/assets/img/product-3.jpg
+Not Found: /dashboard/assets/img/product-4.jpg
+"GET /dashboard/assets/img/product-3.jpg HTTP/1.1" 404 4123
+Not Found: /dashboard/assets/img/product-2.jpg
+"GET /dashboard/assets/img/product-4.jpg HTTP/1.1" 404 4123
+Not Found: /dashboard/assets/img/product-5.jpg
+Not Found: /dashboard/assets/img/news-1.jpg
+"GET /dashboard/assets/img/product-2.jpg HTTP/1.1" 404 4123
+"GET /dashboard/assets/img/product-5.jpg HTTP/1.1" 404 4123
+"GET /dashboard/assets/img/news-1.jpg HTTP/1.1" 404 4114
+Not Found: /dashboard/assets/img/news-2.jpg
+"GET /dashboard/assets/img/news-2.jpg HTTP/1.1" 404 4114
+Not Found: /dashboard/assets/img/news-3.jpg
+"GET /dashboard/assets/img/news-3.jpg HTTP/1.1" 404 4114
+Not Found: /dashboard/assets/img/news-5.jpg
+Not Found: /dashboard/assets/img/news-4.jpg
+"GET /dashboard/assets/img/news-5.jpg HTTP/1.1" 404 4114
+"GET /dashboard/assets/img/news-4.jpg HTTP/1.1" 404 4114
+"GET /admin/auth/user/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/auth/user/ HTTP/1.1" 200 3843
+"GET /admin/login/?next=/admin/auth/user/ HTTP/1.1" 200 3720
+"POST /admin/login/?next=/admin/auth/user/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 22555
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /forgotpassword/ HTTP/1.1" 200 5338
+"POST /forgotpassword/ HTTP/1.1" 200 5513
+"POST /forgotpassword/ HTTP/1.1" 200 5513
+"GET /admin/auth/user/ HTTP/1.1" 200 22555
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /forgotpassword/ HTTP/1.1" 200 5513
+"POST /forgotpassword/ HTTP/1.1" 200 5513
+"GET /home/ HTTP/1.1" 200 17871
+"GET /static/home/vendor/aos/aos.css HTTP/1.1" 404 1929
+"GET /static/home/vendor/aos/aos.js HTTP/1.1" 404 1926
+Not Found: /home/assets/js/main.js
+"GET /home/assets/js/main.js HTTP/1.1" 404 4087
+"GET /login/ HTTP/1.1" 200 2022
+"POST /login/ HTTP/1.1" 302 0
+"GET /dashboard/ HTTP/1.1" 200 46092
+Not Found: /dashboard/assets/css/style.css
+"GET /dashboard/assets/css/style.css HTTP/1.1" 404 4111
+Not Found: /dashboard/assets/img/profile-img.jpg
+Not Found: /dashboard/assets/img/logo.png
+"GET /dashboard/assets/img/profile-img.jpg HTTP/1.1" 404 4129
+"GET /dashboard/assets/img/logo.png HTTP/1.1" 404 4108
+Not Found: /dashboard/assets/img/messages-1.jpg
+Not Found: /dashboard/assets/img/messages-2.jpg
+"GET /dashboard/assets/img/messages-2.jpg HTTP/1.1" 404 4126
+"GET /dashboard/assets/img/messages-1.jpg HTTP/1.1" 404 4126
+Not Found: /dashboard/assets/img/product-1.jpg
+"GET /dashboard/assets/img/product-1.jpg HTTP/1.1" 404 4123
+Not Found: /dashboard/assets/img/messages-3.jpg
+"GET /dashboard/assets/img/messages-3.jpg HTTP/1.1" 404 4126
+Not Found: /dashboard/assets/img/product-3.jpg
+"GET /dashboard/assets/img/product-3.jpg HTTP/1.1" 404 4123
+Not Found: /dashboard/assets/img/product-2.jpg
+"GET /dashboard/assets/img/product-2.jpg HTTP/1.1" 404 4123
+Not Found: /dashboard/assets/img/news-1.jpg
+"GET /dashboard/assets/img/news-1.jpg HTTP/1.1" 404 4114
+Not Found: /dashboard/assets/img/product-4.jpg
+Not Found: /dashboard/assets/img/news-2.jpg
+"GET /dashboard/assets/img/product-4.jpg HTTP/1.1" 404 4123
+"GET /dashboard/assets/img/news-2.jpg HTTP/1.1" 404 4114
+Not Found: /dashboard/assets/img/product-5.jpg
+"GET /dashboard/assets/img/product-5.jpg HTTP/1.1" 404 4123
+Not Found: /dashboard/assets/img/news-3.jpg
+"GET /dashboard/assets/img/news-3.jpg HTTP/1.1" 404 4114
+Not Found: /dashboard/assets/img/news-5.jpg
+Not Found: /dashboard/assets/img/news-4.jpg
+"GET /dashboard/assets/img/news-4.jpg HTTP/1.1" 404 4114
+"GET /dashboard/assets/img/news-5.jpg HTTP/1.1" 404 4114
+Forbidden (CSRF token from POST incorrect.): /login/
+"POST /login/ HTTP/1.1" 403 2518
+"GET /login/ HTTP/1.1" 200 2034
+"POST /login/ HTTP/1.1" 302 0
+"GET /dashboard/ HTTP/1.1" 200 46092
+Not Found: /dashboard/assets/css/style.css
+"GET /dashboard/assets/css/style.css HTTP/1.1" 404 4111
+Not Found: /dashboard/assets/img/messages-2.jpg
+Not Found: /dashboard/assets/img/logo.png
+Not Found: /dashboard/assets/img/product-1.jpg
+"GET /dashboard/assets/img/messages-2.jpg HTTP/1.1" 404 4126
+Not Found: /dashboard/assets/img/messages-3.jpg
+"GET /dashboard/assets/img/product-1.jpg HTTP/1.1" 404 4123
+"GET /dashboard/assets/img/messages-3.jpg HTTP/1.1" 404 4126
+"GET /dashboard/assets/img/logo.png HTTP/1.1" 404 4108
+Not Found: /dashboard/assets/img/messages-1.jpg
+"GET /dashboard/assets/img/messages-1.jpg HTTP/1.1" 404 4126
+Not Found: /dashboard/assets/img/profile-img.jpg
+"GET /dashboard/assets/img/profile-img.jpg HTTP/1.1" 404 4129
+Not Found: /dashboard/assets/img/product-2.jpg
+"GET /dashboard/assets/img/product-2.jpg HTTP/1.1" 404 4123
+Not Found: /dashboard/assets/img/product-3.jpg
+"GET /dashboard/assets/img/product-3.jpg HTTP/1.1" 404 4123
+Not Found: /dashboard/assets/img/news-2.jpg
+Not Found: /dashboard/assets/img/product-4.jpg
+"GET /dashboard/assets/img/product-4.jpg HTTP/1.1" 404 4123
+"GET /dashboard/assets/img/news-2.jpg HTTP/1.1" 404 4114
+Not Found: /dashboard/assets/img/product-5.jpg
+Not Found: /dashboard/assets/img/news-1.jpg
+"GET /dashboard/assets/img/product-5.jpg HTTP/1.1" 404 4123
+"GET /dashboard/assets/img/news-1.jpg HTTP/1.1" 404 4114
+Not Found: /dashboard/assets/img/news-4.jpg
+"GET /dashboard/assets/img/news-4.jpg HTTP/1.1" 404 4114
+Not Found: /dashboard/assets/img/news-3.jpg
+Not Found: /dashboard/assets/img/news-5.jpg
+"GET /dashboard/assets/img/news-5.jpg HTTP/1.1" 404 4114
+"GET /dashboard/assets/img/news-3.jpg HTTP/1.1" 404 4114
+"GET /forgotpassword/ HTTP/1.1" 200 5552
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /home/ HTTP/1.1" 200 17871
+"GET /static/home/main.css HTTP/1.1" 200 32957
+"GET /static/home/vendor/glightbox/css/glightbox.min.css HTTP/1.1" 200 13749
+"GET /static/home/vendor/boxicons/css/boxicons.min.css HTTP/1.1" 200 68028
+"GET /static/home/vendor/bootstrap-icons/bootstrap-icons.css HTTP/1.1" 200 88585
+"GET /static/home/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 194901
+"GET /static/home/vendor/remixicon/remixicon.css HTTP/1.1" 200 110438
+"GET /static/home/vendor/swiper/swiper-bundle.min.css HTTP/1.1" 200 16468
+"GET /static/home/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80496
+"GET /static/home/vendor/purecounter/purecounter_vanilla.js HTTP/1.1" 200 5409
+"GET /static/home/vendor/isotope-layout/isotope.pkgd.min.js HTTP/1.1" 200 35445
+"GET /static/home/vendor/php-email-form/validate.js HTTP/1.1" 200 2509
+"GET /static/home/vendor/glightbox/js/glightbox.min.js HTTP/1.1" 200 55880
+"GET /static/home/img/Academixy_Favicon-removebg-preview.png HTTP/1.1" 200 44388
+"GET /static/home/vendor/swiper/swiper-bundle.min.js HTTP/1.1" 200 143629
+"GET /static/home/img/clients/payment-2.png HTTP/1.1" 200 26203
+"GET /static/home/img/clients/payment-1.png HTTP/1.1" 200 32699
+"GET /static/home/img/clients/payment-4.png HTTP/1.1" 200 6924
+"GET /static/home/img/clients/payment-3.png HTTP/1.1" 200 82387
+"GET /static/home/main.js HTTP/1.1" 200 6853
+"GET /static/home/vendor/aos/aos.css HTTP/1.1" 404 1929
+"GET /static/home/img/clients/payment-5.png HTTP/1.1" 200 19885
+"GET /static/home/vendor/aos/aos.js HTTP/1.1" 404 1926
+Not Found: /home/assets/js/main.js
+"GET /home/assets/js/main.js HTTP/1.1" 404 4087
+"GET /static/home/img/clients/payment-6.png HTTP/1.1" 200 25030
+"GET /static/home/img/clients/payment-7.png HTTP/1.1" 200 80578
+"GET /static/home/img/Academixy__Main%20removebg-preview.png HTTP/1.1" 200 40393
+"GET /static/home/img/clients/payment-8.png HTTP/1.1" 200 154368
+"GET /static/img/features.jpg HTTP/1.1" 200 99201
+"GET /static/img/hero-bg.jpg HTTP/1.1" 200 219801
+"GET /static/img/counts-img.jpg HTTP/1.1" 200 74938
+"GET /static/home/vendor/remixicon/remixicon.woff2?t=1590207869815 HTTP/1.1" 200 125268
+"GET /static/home/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?8d200481aa7f02a2d63a331fc782cfaf HTTP/1.1" 200 112440
+"GET /static/home/vendor/boxicons/fonts/boxicons.woff2 HTTP/1.1" 200 115680
+Not Found: /home/static/images/Academixy_Favicon-removebg-preview.png
+"GET /home/static/images/Academixy_Favicon-removebg-preview.png HTTP/1.1" 404 4192
+"GET /login/ HTTP/1.1" 200 2022
+"GET /static/register/main2.css HTTP/1.1" 200 2923
+"GET /static/register/style.css HTTP/1.1" 200 2001
+"GET /static/register/profile.css HTTP/1.1" 200 1321
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 4054
+"GET /forgotpassword/ HTTP/1.1" 200 5348
+"POST /forgotpassword/ HTTP/1.1" 200 5546
+"POST /forgotpassword/ HTTP/1.1" 200 5546
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 200 11046
+"GET /admin/ HTTP/1.1" 200 11046
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+"GET /static/admin/css/base.css HTTP/1.1" 200 21207
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18557
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"GET /admin/auth/user/ HTTP/1.1" 200 22555
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6584
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+"GET /static/admin/js/core.js HTTP/1.1" 200 5682
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"GET /admin/auth/user/ HTTP/1.1" 200 22555
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+C:\Users\FELIX KIMEU\Desktop\flex-jobs\test\remote\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /forgotpassword/ HTTP/1.1" 200 5546
+"POST /forgotpassword/ HTTP/1.1" 200 5555
+Internal Server Error: /forgotpassword/
+Traceback (most recent call last):
+  File "C:\Users\FELIX KIMEU\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\FELIX KIMEU\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\FELIX KIMEU\Desktop\flex-jobs\test\remote\register\views.py", line 250, in forgot_password
+    if user.reset_password_token_created_at:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'reset_password_token_created_at'
+"POST /forgotpassword/ HTTP/1.1" 500 68770
+C:\Users\FELIX KIMEU\Desktop\flex-jobs\test\remote\register\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /forgotpassword/ HTTP/1.1" 200 665
+"GET /forgotpassword/ HTTP/1.1" 200 5564
+"GET /static/home/vendor/aos/aos.css HTTP/1.1" 404 1929
+"GET /static/home/vendor/aos/aos.js HTTP/1.1" 404 1926
+Not Found: /home/assets/js/main.js
+"GET /home/assets/js/main.js HTTP/1.1" 404 4087
+"GET /login/ HTTP/1.1" 200 2022
+"GET /forgotpassword/ HTTP/1.1" 200 5348
+"POST /forgotpassword/ HTTP/1.1" 200 5546
+"POST /forgotpassword/ HTTP/1.1" 200 665
+"GET /login/ HTTP/1.1" 200 2034
+"POST /login/ HTTP/1.1" 302 0
+"GET /dashboard/ HTTP/1.1" 200 46092
+"GET /static/writers/dashboard.css HTTP/1.1" 200 24651
+"GET /static/writers/vendor/quill/quill.snow.css HTTP/1.1" 200 24743
+"GET /static/writers/vendor/simple-datatables/style.css HTTP/1.1" 200 3990
+Not Found: /dashboard/assets/css/style.css
+"GET /dashboard/assets/css/style.css HTTP/1.1" 404 4111
+"GET /static/writers/vendor/quill/quill.bubble.css HTTP/1.1" 200 25273
+"GET /static/writers/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 194901
+"GET /static/writers/vendor/boxicons/css/boxicons.min.css HTTP/1.1" 200 68028
+"GET /static/writers/vendor/remixicon/remixicon.css HTTP/1.1" 200 110438
+"GET /static/writers/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80420
+Not Found: /dashboard/assets/img/logo.png
+"GET /dashboard/assets/img/logo.png HTTP/1.1" 404 4108
+"GET /static/writers/vendor/chart.js/chart.umd.js HTTP/1.1" 200 203190
+Not Found: /dashboard/assets/img/profile-img.jpg
+"GET /dashboard/assets/img/profile-img.jpg HTTP/1.1" 404 4129
+"GET /static/writers/vendor/quill/quill.min.js HTTP/1.1" 200 216333
+"GET /static/writers/vendor/echarts/echarts.min.js HTTP/1.1" 200 1022939
+"GET /static/writers/vendor/apexcharts/apexcharts.min.js HTTP/1.1" 200 503234
+Not Found: /dashboard/assets/img/messages-1.jpg
+"GET /dashboard/assets/img/messages-1.jpg HTTP/1.1" 404 4126
+"GET /static/writers/vendor/simple-datatables/simple-datatables.js HTTP/1.1" 200 89499
+"GET /static/writers/vendor/php-email-form/validate.js HTTP/1.1" 200 2734
+Not Found: /dashboard/assets/img/messages-2.jpg
+"GET /dashboard/assets/img/messages-2.jpg HTTP/1.1" 404 4126
+"GET /static/writers/dashboard.js HTTP/1.1" 200 9964
+Not Found: /dashboard/assets/img/messages-3.jpg
+Not Found: /dashboard/assets/img/product-2.jpg
+"GET /dashboard/assets/img/product-2.jpg HTTP/1.1" 404 4123
+"GET /dashboard/assets/img/messages-3.jpg HTTP/1.1" 404 4126
+Not Found: /dashboard/assets/img/product-1.jpg
+"GET /dashboard/assets/img/product-1.jpg HTTP/1.1" 404 4123
+Not Found: /dashboard/assets/img/product-3.jpg
+"GET /dashboard/assets/img/product-3.jpg HTTP/1.1" 404 4123
+"GET /static/writers/vendor/tinymce/tinymce.min.js HTTP/1.1" 200 408450
+Not Found: /dashboard/assets/img/product-4.jpg
+"GET /dashboard/assets/img/product-4.jpg HTTP/1.1" 404 4123
+Not Found: /dashboard/assets/img/news-2.jpg
+"GET /dashboard/assets/img/news-2.jpg HTTP/1.1" 404 4114
+Not Found: /dashboard/assets/img/news-5.jpg
+Not Found: /dashboard/assets/img/news-3.jpg
+"GET /dashboard/assets/img/news-5.jpg HTTP/1.1" 404 4114
+"GET /dashboard/assets/img/news-3.jpg HTTP/1.1" 404 4114
+Not Found: /dashboard/assets/img/news-4.jpg
+Not Found: /dashboard/assets/img/news-1.jpg
+"GET /dashboard/assets/img/news-4.jpg HTTP/1.1" 404 4114
+Not Found: /dashboard/assets/img/product-5.jpg
+"GET /dashboard/assets/img/news-1.jpg HTTP/1.1" 404 4114
+"GET /dashboard/assets/img/product-5.jpg HTTP/1.1" 404 4123
+Not Found: /dashboard/assets/img/favicon.png
+"GET /dashboard/assets/img/favicon.png HTTP/1.1" 404 4117
+"GET /admin/auth/user/ HTTP/1.1" 200 22678
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /home/ HTTP/1.1" 200 17871
+"GET /static/home/vendor/aos/aos.css HTTP/1.1" 404 1929
+"GET /static/home/vendor/aos/aos.js HTTP/1.1" 404 1926
+Not Found: /home/assets/js/main.js
+"GET /home/assets/js/main.js HTTP/1.1" 404 4087
+"GET /home HTTP/1.1" 301 0
+"GET /home/ HTTP/1.1" 200 17871
+"GET /static/home/vendor/aos/aos.css HTTP/1.1" 404 1929
+"GET /static/home/vendor/aos/aos.js HTTP/1.1" 404 1926
+Not Found: /home/assets/js/main.js
+"GET /home/assets/js/main.js HTTP/1.1" 404 4087
+"GET /login/ HTTP/1.1" 200 2022
+"GET /register/ HTTP/1.1" 200 1498
+"POST /register/ HTTP/1.1" 200 1678
+"POST /register/ HTTP/1.1" 200 1089
+"GET /login/ HTTP/1.1" 200 2034
+"POST /login/ HTTP/1.1" 302 0
+"GET /dashboard/ HTTP/1.1" 200 46092
+Not Found: /dashboard/assets/css/style.css
+"GET /dashboard/assets/css/style.css HTTP/1.1" 404 4111
+Not Found: /dashboard/assets/img/logo.png
+"GET /dashboard/assets/img/logo.png HTTP/1.1" 404 4108
+Not Found: /dashboard/assets/img/profile-img.jpg
+"GET /dashboard/assets/img/profile-img.jpg HTTP/1.1" 404 4129
+Not Found: /dashboard/assets/img/messages-1.jpg
+"GET /dashboard/assets/img/messages-1.jpg HTTP/1.1" 404 4126
+Not Found: /dashboard/assets/img/messages-2.jpg
+"GET /dashboard/assets/img/messages-2.jpg HTTP/1.1" 404 4126
+Not Found: /dashboard/assets/img/product-1.jpg
+"GET /dashboard/assets/img/product-1.jpg HTTP/1.1" 404 4123
+Not Found: /dashboard/assets/img/product-2.jpg
+"GET /dashboard/assets/img/product-2.jpg HTTP/1.1" 404 4123
+Not Found: /dashboard/assets/img/product-3.jpg
+"GET /dashboard/assets/img/product-3.jpg HTTP/1.1" 404 4123
+Not Found: /dashboard/assets/img/product-4.jpg
+"GET /dashboard/assets/img/product-4.jpg HTTP/1.1" 404 4123
+Not Found: /dashboard/assets/img/product-5.jpg
+"GET /dashboard/assets/img/product-5.jpg HTTP/1.1" 404 4123
+Not Found: /dashboard/assets/img/messages-3.jpg
+"GET /dashboard/assets/img/messages-3.jpg HTTP/1.1" 404 4126
+Not Found: /dashboard/assets/img/news-2.jpg
+Not Found: /dashboard/assets/img/news-1.jpg
+"GET /dashboard/assets/img/news-2.jpg HTTP/1.1" 404 4114
+"GET /dashboard/assets/img/news-1.jpg HTTP/1.1" 404 4114
+Not Found: /dashboard/assets/img/news-4.jpg
+Not Found: /dashboard/assets/img/news-5.jpg
+"GET /dashboard/assets/img/news-5.jpg HTTP/1.1" 404 4114
+"GET /dashboard/assets/img/news-4.jpg HTTP/1.1" 404 4114
+Not Found: /dashboard/assets/img/news-3.jpg
+"GET /dashboard/assets/img/news-3.jpg HTTP/1.1" 404 4114
+"GET /admin/auth/user/ HTTP/1.1" 200 23085
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/ HTTP/1.1" 200 11046
+"GET /admin/auth/user/ HTTP/1.1" 200 22962
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Forbidden (CSRF token from POST incorrect.): /login/
+"POST /login/ HTTP/1.1" 403 2518
+"GET /login/ HTTP/1.1" 200 2022
+"GET /register/ HTTP/1.1" 200 1498
+"GET /login/ HTTP/1.1" 200 2022
+"POST /login/ HTTP/1.1" 302 0
+"GET /dashboard/ HTTP/1.1" 200 46092
+Not Found: /dashboard/assets/css/style.css
+"GET /dashboard/assets/css/style.css HTTP/1.1" 404 4111
+Not Found: /dashboard/assets/img/logo.png
+"GET /dashboard/assets/img/logo.png HTTP/1.1" 404 4108
+Not Found: /dashboard/assets/img/messages-1.jpg
+"GET /dashboard/assets/img/messages-1.jpg HTTP/1.1" 404 4126
+Not Found: /dashboard/assets/img/messages-2.jpg
+Not Found: /dashboard/assets/img/messages-3.jpg
+"GET /dashboard/assets/img/messages-2.jpg HTTP/1.1" 404 4126
+"GET /dashboard/assets/img/messages-3.jpg HTTP/1.1" 404 4126
+Not Found: /dashboard/assets/img/profile-img.jpg
+"GET /dashboard/assets/img/profile-img.jpg HTTP/1.1" 404 4129
+Not Found: /dashboard/assets/img/product-2.jpg
+Not Found: /dashboard/assets/img/product-1.jpg
+"GET /dashboard/assets/img/product-2.jpg HTTP/1.1" 404 4123
+"GET /dashboard/assets/img/product-1.jpg HTTP/1.1" 404 4123
+Not Found: /dashboard/assets/img/product-3.jpg
+Not Found: /dashboard/assets/img/product-4.jpg
+"GET /dashboard/assets/img/product-3.jpg HTTP/1.1" 404 4123
+"GET /dashboard/assets/img/product-4.jpg HTTP/1.1" 404 4123
+Not Found: /dashboard/assets/img/news-1.jpg
+Not Found: /dashboard/assets/img/news-2.jpg
+"GET /dashboard/assets/img/news-1.jpg HTTP/1.1" 404 4114
+"GET /dashboard/assets/img/news-2.jpg HTTP/1.1" 404 4114
+Not Found: /dashboard/assets/img/product-5.jpg
+"GET /dashboard/assets/img/product-5.jpg HTTP/1.1" 404 4123
+Not Found: /dashboard/assets/img/news-3.jpg
+"GET /dashboard/assets/img/news-3.jpg HTTP/1.1" 404 4114
+Not Found: /dashboard/assets/img/news-4.jpg
+Not Found: /dashboard/assets/img/news-5.jpg
+"GET /dashboard/assets/img/news-4.jpg HTTP/1.1" 404 4114
+"GET /dashboard/assets/img/news-5.jpg HTTP/1.1" 404 4114
+"GET /myprofile/ HTTP/1.1" 200 1560
+"GET /login/ HTTP/1.1" 200 2034
+"POST /login/ HTTP/1.1" 302 0
+"GET /dashboard/ HTTP/1.1" 200 46092
+Not Found: /dashboard/assets/css/style.css
+"GET /dashboard/assets/css/style.css HTTP/1.1" 404 4111
+Not Found: /dashboard/assets/img/logo.png
+"GET /dashboard/assets/img/logo.png HTTP/1.1" 404 4108
+Not Found: /dashboard/assets/img/messages-1.jpg
+"GET /dashboard/assets/img/messages-1.jpg HTTP/1.1" 404 4126
+Not Found: /dashboard/assets/img/messages-2.jpg
+Not Found: /dashboard/assets/img/profile-img.jpg
+"GET /dashboard/assets/img/messages-2.jpg HTTP/1.1" 404 4126
+"GET /dashboard/assets/img/profile-img.jpg HTTP/1.1" 404 4129
+Not Found: /dashboard/assets/img/product-1.jpg
+Not Found: /dashboard/assets/img/messages-3.jpg
+"GET /dashboard/assets/img/product-1.jpg HTTP/1.1" 404 4123
+"GET /dashboard/assets/img/messages-3.jpg HTTP/1.1" 404 4126
+Not Found: /dashboard/assets/img/product-3.jpg
+Not Found: /dashboard/assets/img/product-5.jpg
+"GET /dashboard/assets/img/product-3.jpg HTTP/1.1" 404 4123
+"GET /dashboard/assets/img/product-5.jpg HTTP/1.1" 404 4123
+Not Found: /dashboard/assets/img/product-2.jpg
+"GET /dashboard/assets/img/product-2.jpg HTTP/1.1" 404 4123
+Not Found: /dashboard/assets/img/product-4.jpg
+Not Found: /dashboard/assets/img/news-1.jpg
+"GET /dashboard/assets/img/product-4.jpg HTTP/1.1" 404 4123
+"GET /dashboard/assets/img/news-1.jpg HTTP/1.1" 404 4114
+Not Found: /dashboard/assets/img/news-2.jpg
+"GET /dashboard/assets/img/news-2.jpg HTTP/1.1" 404 4114
+Not Found: /dashboard/assets/img/news-3.jpg
+"GET /dashboard/assets/img/news-3.jpg HTTP/1.1" 404 4114
+Not Found: /dashboard/assets/img/news-5.jpg
+Not Found: /dashboard/assets/img/news-4.jpg
+"GET /dashboard/assets/img/news-5.jpg HTTP/1.1" 404 4114
+"GET /dashboard/assets/img/news-4.jpg HTTP/1.1" 404 4114
+"GET /login/ HTTP/1.1" 200 2034
+"POST /login/ HTTP/1.1" 302 0
+"GET /dashboard/ HTTP/1.1" 200 46092
+Not Found: /dashboard/assets/css/style.css
+"GET /dashboard/assets/css/style.css HTTP/1.1" 404 4111
+Not Found: /dashboard/assets/img/logo.png
+Not Found: /dashboard/assets/img/product-1.jpg
+Not Found: /dashboard/assets/img/messages-1.jpg
+"GET /dashboard/assets/img/product-1.jpg HTTP/1.1" 404 4123
+"GET /dashboard/assets/img/logo.png HTTP/1.1" 404 4108
+Not Found: /dashboard/assets/img/messages-2.jpg
+"GET /dashboard/assets/img/messages-1.jpg HTTP/1.1" 404 4126
+Not Found: /dashboard/assets/img/messages-3.jpg
+"GET /dashboard/assets/img/messages-3.jpg HTTP/1.1" 404 4126
+"GET /dashboard/assets/img/messages-2.jpg HTTP/1.1" 404 4126
+Not Found: /dashboard/assets/img/profile-img.jpg
+"GET /dashboard/assets/img/profile-img.jpg HTTP/1.1" 404 4129
+Not Found: /dashboard/assets/img/product-2.jpg
+Not Found: /dashboard/assets/img/product-4.jpg
+"GET /dashboard/assets/img/product-2.jpg HTTP/1.1" 404 4123
+Not Found: /dashboard/assets/img/news-1.jpg
+"GET /dashboard/assets/img/product-4.jpg HTTP/1.1" 404 4123
+Not Found: /dashboard/assets/img/product-3.jpg
+Not Found: /dashboard/assets/img/news-2.jpg
+"GET /dashboard/assets/img/news-1.jpg HTTP/1.1" 404 4114
+"GET /dashboard/assets/img/news-2.jpg HTTP/1.1" 404 4114
+"GET /dashboard/assets/img/product-3.jpg HTTP/1.1" 404 4123
+Not Found: /dashboard/assets/img/product-5.jpg
+"GET /dashboard/assets/img/product-5.jpg HTTP/1.1" 404 4123
+Not Found: /dashboard/assets/img/news-3.jpg
+"GET /dashboard/assets/img/news-3.jpg HTTP/1.1" 404 4114
+Not Found: /dashboard/assets/img/news-5.jpg
+Not Found: /dashboard/assets/img/news-4.jpg
+"GET /dashboard/assets/img/news-5.jpg HTTP/1.1" 404 4114
+"GET /dashboard/assets/img/news-4.jpg HTTP/1.1" 404 4114
+Watching for file changes with StatReloader
+"GET /home/ HTTP/1.1" 200 17871
+"GET /static/home/main.css HTTP/1.1" 200 32957
+"GET /static/home/vendor/remixicon/remixicon.css HTTP/1.1" 200 110438
+"GET /static/home/vendor/glightbox/css/glightbox.min.css HTTP/1.1" 200 13749
+"GET /static/home/vendor/bootstrap-icons/bootstrap-icons.css HTTP/1.1" 200 88585
+"GET /static/home/vendor/swiper/swiper-bundle.min.css HTTP/1.1" 200 16468
+"GET /static/home/vendor/boxicons/css/boxicons.min.css HTTP/1.1" 200 68028
+"GET /static/home/vendor/aos/aos.js HTTP/1.1" 404 1926
+"GET /static/home/vendor/aos/aos.css HTTP/1.1" 404 1929
+"GET /static/home/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 194901
+"GET /static/home/vendor/purecounter/purecounter_vanilla.js HTTP/1.1" 200 5409
+"GET /static/home/vendor/isotope-layout/isotope.pkgd.min.js HTTP/1.1" 200 35445
+"GET /static/home/vendor/php-email-form/validate.js HTTP/1.1" 200 2509
+"GET /static/home/vendor/glightbox/js/glightbox.min.js HTTP/1.1" 200 55880
+"GET /static/home/vendor/swiper/swiper-bundle.min.js HTTP/1.1" 200 143629
+"GET /static/home/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80496
+Not Found: /home/assets/js/main.js
+"GET /home/assets/js/main.js HTTP/1.1" 404 4087
+"GET /static/home/img/Academixy_Favicon-removebg-preview.png HTTP/1.1" 200 44388
+"GET /static/home/img/clients/payment-1.png HTTP/1.1" 200 32699
+"GET /static/home/img/clients/payment-2.png HTTP/1.1" 200 26203
+"GET /static/home/img/clients/payment-3.png HTTP/1.1" 200 82387
+"GET /static/home/img/clients/payment-4.png HTTP/1.1" 200 6924
+"GET /static/home/main.js HTTP/1.1" 200 6853
+"GET /static/home/img/clients/payment-5.png HTTP/1.1" 200 19885
+"GET /static/home/img/clients/payment-7.png HTTP/1.1" 200 80578
+"GET /static/home/img/clients/payment-6.png HTTP/1.1" 200 25030
+"GET /static/home/img/clients/payment-8.png HTTP/1.1" 200 154368
+"GET /static/home/img/Academixy__Main%20removebg-preview.png HTTP/1.1" 200 40393
+"GET /static/img/features.jpg HTTP/1.1" 200 99201
+"GET /static/img/hero-bg.jpg HTTP/1.1" 200 219801
+"GET /static/img/counts-img.jpg HTTP/1.1" 200 74938
+"GET /static/home/vendor/remixicon/remixicon.woff2?t=1590207869815 HTTP/1.1" 200 125268
+"GET /static/home/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?8d200481aa7f02a2d63a331fc782cfaf HTTP/1.1" 200 112440
+"GET /static/home/vendor/boxicons/fonts/boxicons.woff2 HTTP/1.1" 200 115680
+Not Found: /home/static/images/Academixy_Favicon-removebg-preview.png
+"GET /home/static/images/Academixy_Favicon-removebg-preview.png HTTP/1.1" 404 4192
+"GET /register/ HTTP/1.1" 200 1498
+"GET /static/register/profile.css HTTP/1.1" 200 1321
+"GET /static/register/main2.css HTTP/1.1" 200 2923
+"GET /static/register/style.css HTTP/1.1" 200 2001
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 4054
+Watching for file changes with StatReloader
+C:\Users\FELIX KIMEU\Desktop\flex-jobs\test\remote\register\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /register/ HTTP/1.1" 200 1498
+"GET /register/ HTTP/1.1" 200 1498
+"GET /register/ HTTP/1.1" 200 1498
+"GET /register/ HTTP/1.1" 200 1498
+"GET /register/ HTTP/1.1" 200 1498
+"GET /static/register/profile.css HTTP/1.1" 200 1321
+"GET /static/register/style.css HTTP/1.1" 200 2001
+"GET /static/register/main2.css HTTP/1.1" 200 2923
+C:\Users\FELIX KIMEU\Desktop\flex-jobs\test\remote\register\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /register/ HTTP/1.1" 200 1498
+"GET /register/ HTTP/1.1" 200 1498
+"GET /register/ HTTP/1.1" 200 1498
+"GET /register/ HTTP/1.1" 200 1498
+"GET /register/ HTTP/1.1" 200 1498
+"GET /register/ HTTP/1.1" 200 1498
+"GET /register/ HTTP/1.1" 200 1498
+"GET /register/ HTTP/1.1" 200 1498
+"GET /register/ HTTP/1.1" 200 1498
+"GET /register/ HTTP/1.1" 200 1498
+"GET /register/ HTTP/1.1" 200 1498
+"GET /register/ HTTP/1.1" 200 1498
+"GET /register/ HTTP/1.1" 200 1498
+"GET /register/ HTTP/1.1" 200 1498
+"GET /register/ HTTP/1.1" 200 1498
+- Broken pipe from ('127.0.0.1', 13118)
+"GET /login/ HTTP/1.1" 200 2022
+"GET /register/ HTTP/1.1" 200 1498
+"POST /register/ HTTP/1.1" 200 1084
+"GET /login/ HTTP/1.1" 200 2034
+"POST /login/ HTTP/1.1" 200 2022
+"POST /login/ HTTP/1.1" 200 2022
+"POST /login/ HTTP/1.1" 200 2022
+"POST /login/ HTTP/1.1" 302 0
+"GET /dashboard/ HTTP/1.1" 200 46092
+"GET /static/writers/vendor/quill/quill.snow.css HTTP/1.1" 200 24743
+"GET /static/writers/vendor/simple-datatables/style.css HTTP/1.1" 200 3990
+"GET /static/writers/dashboard.css HTTP/1.1" 200 24651
+"GET /static/writers/vendor/quill/quill.bubble.css HTTP/1.1" 200 25273
+"GET /static/writers/vendor/boxicons/css/boxicons.min.css HTTP/1.1" 200 68028
+"GET /static/writers/vendor/remixicon/remixicon.css HTTP/1.1" 200 110438
+"GET /static/writers/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 194901
+Not Found: /dashboard/assets/css/style.css
+"GET /dashboard/assets/css/style.css HTTP/1.1" 404 4111
+"GET /static/writers/vendor/apexcharts/apexcharts.min.js HTTP/1.1" 200 503234
+"GET /static/writers/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80420
+"GET /static/writers/vendor/quill/quill.min.js HTTP/1.1" 200 216333
+"GET /static/writers/vendor/php-email-form/validate.js HTTP/1.1" 200 2734
+"GET /static/writers/vendor/chart.js/chart.umd.js HTTP/1.1" 200 203190
+Not Found: /dashboard/assets/img/logo.png
+"GET /dashboard/assets/img/logo.png HTTP/1.1" 404 4108
+Not Found: /dashboard/assets/img/messages-1.jpg
+"GET /dashboard/assets/img/messages-1.jpg HTTP/1.1" 404 4126
+"GET /static/writers/dashboard.js HTTP/1.1" 200 9964
+"GET /static/writers/vendor/simple-datatables/simple-datatables.js HTTP/1.1" 200 89499
+"GET /static/writers/vendor/echarts/echarts.min.js HTTP/1.1" 200 1022939
+Not Found: /dashboard/assets/img/messages-2.jpg
+"GET /dashboard/assets/img/messages-2.jpg HTTP/1.1" 404 4126
+Not Found: /dashboard/assets/img/messages-3.jpg
+Not Found: /dashboard/assets/img/profile-img.jpg
+"GET /dashboard/assets/img/messages-3.jpg HTTP/1.1" 404 4126
+"GET /dashboard/assets/img/profile-img.jpg HTTP/1.1" 404 4129
+Not Found: /dashboard/assets/img/product-1.jpg
+"GET /dashboard/assets/img/product-1.jpg HTTP/1.1" 404 4123
+Not Found: /dashboard/assets/img/product-2.jpg
+"GET /dashboard/assets/img/product-2.jpg HTTP/1.1" 404 4123
+Not Found: /dashboard/assets/img/product-3.jpg
+Not Found: /dashboard/assets/img/product-4.jpg
+"GET /dashboard/assets/img/product-4.jpg HTTP/1.1" 404 4123
+Not Found: /dashboard/assets/img/product-5.jpg
+"GET /dashboard/assets/img/product-3.jpg HTTP/1.1" 404 4123
+"GET /dashboard/assets/img/product-5.jpg HTTP/1.1" 404 4123
+"GET /static/writers/vendor/tinymce/tinymce.min.js HTTP/1.1" 200 408450
+Not Found: /dashboard/assets/img/news-1.jpg
+"GET /dashboard/assets/img/news-1.jpg HTTP/1.1" 404 4114
+Not Found: /dashboard/assets/img/news-4.jpg
+Not Found: /dashboard/assets/img/news-3.jpg
+Not Found: /dashboard/assets/img/news-2.jpg
+"GET /dashboard/assets/img/news-2.jpg HTTP/1.1" 404 4114
+"GET /dashboard/assets/img/news-4.jpg HTTP/1.1" 404 4114
+"GET /dashboard/assets/img/news-3.jpg HTTP/1.1" 404 4114
+Not Found: /dashboard/assets/img/news-5.jpg
+"GET /dashboard/assets/img/news-5.jpg HTTP/1.1" 404 4114
+Not Found: /dashboard/assets/img/favicon.png
+"GET /dashboard/assets/img/favicon.png HTTP/1.1" 404 4117
+Not Found: /dashboard/assets/css/style.css
+Not Found: /dashboard/assets/img/profile-img.jpg
+Not Found: /dashboard/assets/img/messages-1.jpg
+Not Found: /dashboard/assets/img/logo.png
+"GET /dashboard/assets/css/style.css HTTP/1.1" 404 4111
+Not Found: /dashboard/assets/img/messages-2.jpg
+"GET /dashboard/assets/img/profile-img.jpg HTTP/1.1" 404 4129
+- Broken pipe from ('127.0.0.1', 1214)
+"GET /dashboard/assets/img/messages-1.jpg HTTP/1.1" 404 4126
+"GET /dashboard/assets/img/logo.png HTTP/1.1" 404 4108
+Not Found: /dashboard/assets/img/messages-3.jpg
+"GET /dashboard/assets/img/messages-2.jpg HTTP/1.1" 404 4126
+Not Found: /dashboard/assets/img/product-5.jpg
+"GET /dashboard/assets/img/product-5.jpg HTTP/1.1" 404 4123
+"GET /dashboard/assets/img/messages-3.jpg HTTP/1.1" 404 4126
+Not Found: /dashboard/assets/img/product-3.jpg
+Not Found: /dashboard/assets/img/product-1.jpg
+"GET /dashboard/assets/img/product-3.jpg HTTP/1.1" 404 4123
+Not Found: /dashboard/assets/img/news-2.jpg
+"GET /dashboard/assets/img/news-2.jpg HTTP/1.1" 404 4114
+"GET /dashboard/assets/img/product-1.jpg HTTP/1.1" 404 4123
+Not Found: /dashboard/assets/img/product-2.jpg
+Not Found: /dashboard/assets/img/product-4.jpg
+"GET /dashboard/assets/img/product-2.jpg HTTP/1.1" 404 4123
+"GET /dashboard/assets/img/product-4.jpg HTTP/1.1" 404 4123
+Not Found: /dashboard/assets/img/news-1.jpg
+"GET /dashboard/assets/img/news-1.jpg HTTP/1.1" 404 4114
+Not Found: /dashboard/assets/img/news-4.jpg
+Not Found: /dashboard/assets/img/news-5.jpg
+Not Found: /dashboard/assets/img/news-3.jpg
+"GET /dashboard/assets/img/news-5.jpg HTTP/1.1" 404 4114
+"GET /dashboard/assets/img/news-4.jpg HTTP/1.1" 404 4114
+"GET /dashboard/assets/img/news-3.jpg HTTP/1.1" 404 4114
+Watching for file changes with StatReloader
+"GET /home HTTP/1.1" 301 0
+"GET /home/ HTTP/1.1" 200 17871
+"GET /static/home/vendor/aos/aos.css HTTP/1.1" 404 1929
+"GET /static/home/main.css HTTP/1.1" 200 32957
+"GET /static/home/vendor/glightbox/css/glightbox.min.css HTTP/1.1" 200 13749
+"GET /static/home/vendor/bootstrap-icons/bootstrap-icons.css HTTP/1.1" 200 88585
+"GET /static/home/vendor/aos/aos.js HTTP/1.1" 404 1926
+"GET /static/home/vendor/boxicons/css/boxicons.min.css HTTP/1.1" 200 68028
+"GET /static/home/vendor/remixicon/remixicon.css HTTP/1.1" 200 110438
+"GET /static/home/vendor/swiper/swiper-bundle.min.css HTTP/1.1" 200 16468
+"GET /static/home/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 194901
+"GET /static/home/vendor/purecounter/purecounter_vanilla.js HTTP/1.1" 200 5409
+"GET /static/home/vendor/isotope-layout/isotope.pkgd.min.js HTTP/1.1" 200 35445
+"GET /static/home/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80496
+"GET /static/home/vendor/swiper/swiper-bundle.min.js HTTP/1.1" 200 143629
+"GET /static/home/vendor/glightbox/js/glightbox.min.js HTTP/1.1" 200 55880
+Not Found: /home/assets/js/main.js
+"GET /home/assets/js/main.js HTTP/1.1" 404 4087
+"GET /static/home/vendor/php-email-form/validate.js HTTP/1.1" 200 2509
+"GET /static/home/img/clients/payment-1.png HTTP/1.1" 200 32699
+"GET /static/home/img/Academixy_Favicon-removebg-preview.png HTTP/1.1" 200 44388
+"GET /static/home/img/clients/payment-3.png HTTP/1.1" 200 82387
+"GET /static/home/img/clients/payment-2.png HTTP/1.1" 200 26203
+"GET /static/home/img/clients/payment-4.png HTTP/1.1" 200 6924
+"GET /static/home/img/clients/payment-6.png HTTP/1.1" 200 25030
+"GET /static/home/img/clients/payment-7.png HTTP/1.1" 200 80578
+"GET /static/home/img/clients/payment-5.png HTTP/1.1" 200 19885
+"GET /static/home/img/clients/payment-8.png HTTP/1.1" 200 154368
+"GET /static/home/img/Academixy__Main%20removebg-preview.png HTTP/1.1" 200 40393
+"GET /static/img/hero-bg.jpg HTTP/1.1" 200 219801
+"GET /static/img/features.jpg HTTP/1.1" 200 99201
+"GET /static/img/counts-img.jpg HTTP/1.1" 200 74938
+"GET /static/home/main.js HTTP/1.1" 200 6853
+"GET /static/home/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?8d200481aa7f02a2d63a331fc782cfaf HTTP/1.1" 200 112440
+"GET /static/home/vendor/remixicon/remixicon.woff2?t=1590207869815 HTTP/1.1" 200 125268
+"GET /static/home/vendor/boxicons/fonts/boxicons.woff2 HTTP/1.1" 200 115680
+Not Found: /home/static/images/Academixy_Favicon-removebg-preview.png
+"GET /home/static/images/Academixy_Favicon-removebg-preview.png HTTP/1.1" 404 4192
+"GET /register/ HTTP/1.1" 200 1498
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 4054
+"GET /login/ HTTP/1.1" 200 2022
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 200 11046
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+"GET /static/admin/css/base.css HTTP/1.1" 200 21207
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18557
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"GET /admin/auth/user/ HTTP/1.1" 200 23364
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6584
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/core.js HTTP/1.1" 200 5682
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"GET /home/ HTTP/1.1" 200 17871
+"GET /static/home/main.css HTTP/1.1" 200 32957
+"GET /static/home/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 194901
+"GET /static/home/vendor/aos/aos.css HTTP/1.1" 404 1929
+"GET /static/home/vendor/bootstrap-icons/bootstrap-icons.css HTTP/1.1" 200 88585
+"GET /static/home/vendor/boxicons/css/boxicons.min.css HTTP/1.1" 200 68028
+"GET /static/home/vendor/glightbox/css/glightbox.min.css HTTP/1.1" 200 13749
+"GET /static/home/vendor/swiper/swiper-bundle.min.css HTTP/1.1" 200 16468
+"GET /static/home/vendor/purecounter/purecounter_vanilla.js HTTP/1.1" 200 5409
+"GET /static/home/vendor/remixicon/remixicon.css HTTP/1.1" 200 110438
+"GET /static/home/vendor/aos/aos.js HTTP/1.1" 404 1926
+"GET /static/home/vendor/isotope-layout/isotope.pkgd.min.js HTTP/1.1" 200 35445
+"GET /static/home/vendor/glightbox/js/glightbox.min.js HTTP/1.1" 200 55880
+"GET /static/home/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80496
+"GET /static/home/vendor/swiper/swiper-bundle.min.js HTTP/1.1" 200 143629
+"GET /static/home/vendor/php-email-form/validate.js HTTP/1.1" 200 2509
+Not Found: /home/assets/js/main.js
+"GET /home/assets/js/main.js HTTP/1.1" 404 4087
+"GET /static/home/main.js HTTP/1.1" 200 6853
+"GET /static/home/img/Academixy_Favicon-removebg-preview.png HTTP/1.1" 200 44388
+"GET /static/home/img/clients/payment-1.png HTTP/1.1" 200 32699
+"GET /static/home/img/clients/payment-2.png HTTP/1.1" 200 26203
+"GET /static/home/img/clients/payment-4.png HTTP/1.1" 200 6924
+"GET /static/home/img/clients/payment-7.png HTTP/1.1" 200 80578
+"GET /static/home/img/clients/payment-3.png HTTP/1.1" 200 82387
+"GET /static/home/img/clients/payment-6.png HTTP/1.1" 200 25030
+"GET /static/img/hero-bg.jpg HTTP/1.1" 200 219801
+"GET /static/home/img/clients/payment-5.png HTTP/1.1" 200 19885
+"GET /static/home/vendor/remixicon/remixicon.woff2?t=1590207869815 HTTP/1.1" 200 125268
+"GET /static/home/vendor/boxicons/fonts/boxicons.woff2 HTTP/1.1" 200 115680
+"GET /static/home/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?8d200481aa7f02a2d63a331fc782cfaf HTTP/1.1" 200 112440
+"GET /static/home/img/clients/payment-8.png HTTP/1.1" 200 154368
+"GET /static/img/features.jpg HTTP/1.1" 200 99201
+"GET /static/home/img/Academixy__Main%20removebg-preview.png HTTP/1.1" 200 40393
+"GET /static/img/counts-img.jpg HTTP/1.1" 200 74938
+"GET /register/ HTTP/1.1" 200 1498
+"GET /login/ HTTP/1.1" 200 2022
+"GET /admin/auth/user/ HTTP/1.1" 200 23364
+"GET /static/admin/css/base.css HTTP/1.1" 200 21207
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6584
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18557
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+"GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+"GET /static/admin/js/core.js HTTP/1.1" 200 5682
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"GET /admin/register/user/ HTTP/1.1" 200 12997
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/auth/user/ HTTP/1.1" 200 23364
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/register/user/ HTTP/1.1" 200 12997
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/register/user/add/ HTTP/1.1" 200 23857
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/css/forms.css HTTP/1.1" 200 8953
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11952
+"GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677

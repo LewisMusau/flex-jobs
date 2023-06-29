@@ -240,27 +240,22 @@ def forgot_password(request):
         
         User = get_user_model()
         try:
+            # Retrieve the user with the provided email
             user = User.objects.get(email=email)
         except User.DoesNotExist:
             messages.error(request, 'Invalid email')
             return render(request, 'forgot.html')
         
-        # Check if the password reset link has expired (5 minutes)
-        if user.reset_password_token_created_at:
-            time_difference = timezone.now() - user.reset_password_token_created_at
-            if time_difference.total_seconds() > 300:  # 5 minutes = 300 seconds
-                messages.error(request, 'Password reset link has expired')
-                return render(request, 'forgot.html')
-        
         # Update user's password
         user.set_password(new_password)
-        user.reset_password_token_created_at = None  # Reset the token creation time
         user.save()
         
         messages.success(request, 'Password updated successfully')
         return render(request, 'password_reset_success.html')
     else:
         return render(request, 'forgot.html')
+
+
 
 
 
